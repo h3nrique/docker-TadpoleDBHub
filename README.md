@@ -27,6 +27,12 @@ Docker push
 -
 * docker push hyunjongcho/tadpoledbhub:latest
 
+OCP Deploy
+-
+```bash
+oc new-app https://github.com/h3nrique/docker-TadpoleDBHub.git --name tadpolehub --strategy=docker
+```
+
 Docker tag
 - 
 * 도커허브 계정(hyunjongcho/tadpoledbhub) 의 이름으로 tag되어 있어야 합니다. 
